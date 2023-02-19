@@ -1,16 +1,15 @@
 var CheckbookAPI = require("../lib/checkbook");
 var Checkbook = new CheckbookAPI({
-    api_key: 'd6aa2703655f4ba2af2a56202961ca86',
-    api_secret: 'dXbCgzYBMibj8ZwuQMd2NXr6rtvjZ8',
+    api_key: '0d1cc1304a174710a58c2e59d9cd8c0b',
+    api_secret: '3gP9Q8vRUwGIvBYaGv8FiqRxlKa8X1',
     env: 'demo'
 });
-
 
 /*
  Get sent/received invoices
  https://docs.checkbook.io/reference#get-invoices
  */
-/*
+
 Checkbook.invoices.list({
     page: 1,
     per_page: 10
@@ -21,7 +20,7 @@ Checkbook.invoices.list({
         console.log('Response:', response);
     }
 });
-*/
+
 
 
 /*
@@ -78,10 +77,10 @@ Checkbook.invoices.sendInvoice({
  Create invoice (with idempotency key)
  https://docs.checkbook.io/reference#post-invoice
  */
-/*
+
 Checkbook.invoices.sendInvoice({
-    name: 'Widgets Inc.',
-    recipient: 'widgets@example.com',
+    name: 'Fresh Buddy',
+    recipient: 'Jennifer Song',
     description: 'Test Send Invoice',
     amount: 10.00
 }, function (error, response) {
@@ -91,7 +90,7 @@ Checkbook.invoices.sendInvoice({
         console.log('Response:', response);
     }
 }, '123456789');
-*/
+
 
 
 /*
