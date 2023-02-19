@@ -57,11 +57,11 @@ Checkbook.invoices.delete('929b8b25fc2b4bb5b90ef8c863b363fd', function (error, r
  Create invoice
  https://docs.checkbook.io/reference#post-invoice
  */
-/*
+
 Checkbook.invoices.sendInvoice({
-    name: 'Widgets Inc.',
-    recipient: 'widgets@example.com',
-    description: 'Test Send Invoice',
+    name: 'Fresh Buddy',
+    recipient: 'stemgirl3000@gmail.com',
+    description: 'Thank you for shopping with Fresh Buddy',
     amount: 5.00
 }, function (error, response) {
     if (error) {
@@ -70,7 +70,7 @@ Checkbook.invoices.sendInvoice({
         console.log('Response:', response);
     }
 });
-*/
+
 
 
 /*
@@ -78,6 +78,7 @@ Checkbook.invoices.sendInvoice({
  https://docs.checkbook.io/reference#post-invoice
  */
 
+ /*
 Checkbook.invoices.sendInvoice({
     name: 'Fresh Buddy',
     recipient: 'Jennifer Song',
@@ -91,7 +92,7 @@ Checkbook.invoices.sendInvoice({
     }
 }, '123456789');
 
-
+*/
 
 /*
  Pay invoice
